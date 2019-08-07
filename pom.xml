@@ -11,9 +11,9 @@
 
 
     <groupId>com.berthoud</groupId>
-    <artifactId>p7-webapp-app</artifactId>
+    <artifactId>p10-webapp-app</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>p7-webapp-app</name>
+    <name>p10-webapp-app</name>
     <description>Webapp for librairy users</description>
     <packaging>pom</packaging>
 
@@ -22,12 +22,12 @@
     </properties>
 
     <modules>
-        <module>p7-webapp-presentation</module>
-        <module>p7-webapp-business</module>
-        <module>p7-webapp-consumer-contract</module>
-        <module>p7-webapp-consumer-ws-impl</module>
-        <module>p7-webapp-model</module>
-        <module>p7-batch</module>
+        <module>p10-webapp-presentation</module>
+        <module>p10-webapp-business</module>
+        <module>p10-webapp-consumer-contract</module>
+        <module>p10-webapp-consumer-ws-impl</module>
+        <module>p10-webapp-model</module>
+        <module>p10-batch</module>
     </modules>
 
     <dependencies>

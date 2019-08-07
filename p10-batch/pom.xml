@@ -4,17 +4,17 @@
 
 
     <parent>
-        <artifactId>p7-webapp-app</artifactId>
+        <artifactId>p10-webapp-app</artifactId>
         <groupId>com.berthoud</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.berthoud</groupId>
-    <artifactId>p7-batch</artifactId>
+    <artifactId>p10-batch</artifactId>
     <packaging>jar</packaging>
 
-    <name>p7-batch</name>
+    <name>p10-batch</name>
     <description>Batch project</description>
 
     <properties>
@@ -27,7 +27,7 @@
 
         <dependency>
             <groupId>com.berthoud</groupId>
-            <artifactId>p7-webapp-business</artifactId>
+            <artifactId>p10-webapp-business</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
 
