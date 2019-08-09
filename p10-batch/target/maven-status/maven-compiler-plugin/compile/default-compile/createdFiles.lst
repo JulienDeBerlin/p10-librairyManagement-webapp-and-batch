@@ -1,0 +1,5 @@
+com/berthoud/p7/batch/lateLoansMonitoring/GetListLateUserTask.class
+com/berthoud/p7/batch/lateLoansMonitoring/ProcessCustomerListTask.class
+com/berthoud/p7/batch/P7BatchApplication.class
+com/berthoud/p7/batch/lateLoansMonitoring/SendReminderEmailJob.class
+com/berthoud/p7/batch/lateLoansMonitoring/ReminderEmailBuilder.class

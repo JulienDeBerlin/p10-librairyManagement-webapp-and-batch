@@ -1,0 +1,3 @@
+
+Hsquid:S1444",Make this "public static logger" field final(š…»²ÿÿÿÿÿ
+…"squid:ClassVariableVisibilityCheck"RMake logger a static final constant or non-public and provide accessors if needed.(š…»²ÿÿÿÿÿ

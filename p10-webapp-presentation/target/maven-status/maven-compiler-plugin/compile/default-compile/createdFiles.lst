@@ -1,0 +1,5 @@
+com/berthoud/p7/webapp/WebApp.class
+com/berthoud/p7/webapp/controllers/LoginController.class
+com/berthoud/p7/webapp/controllers/HomeController.class
+com/berthoud/p7/webapp/controllers/ResearchResultController.class
+com/berthoud/p7/webapp/controllers/LoanController.class

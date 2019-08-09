@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="p10-batch" />
+        <module name="p10-webapp-business" />
+        <module name="p10-webapp-consumer-contract" />
+        <module name="p10-webapp-consumer-ws-impl" />
+        <module name="p10-webapp-model" />
+        <module name="p10-webapp-presentation" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="p10-batch" target="1.8" />
+      <module name="p10-webapp-business" target="1.8" />
+      <module name="p10-webapp-consumer-contract" target="1.8" />
+      <module name="p10-webapp-consumer-ws-impl" target="1.8" />
+      <module name="p10-webapp-model" target="1.8" />
+      <module name="p10-webapp-presentation" target="1.8" />
+      <module name="webapp_batch" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="p10-batch" options="-parameters" />
+      <module name="p10-webapp-business" options="-parameters" />
+      <module name="p10-webapp-consumer-contract" options="-parameters" />
+      <module name="p10-webapp-consumer-ws-impl" options="-parameters" />
+      <module name="p10-webapp-model" options="-parameters" />
+      <module name="p10-webapp-presentation" options="-parameters" />
+    </option>
+  </component>
+</project>

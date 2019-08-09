@@ -1,0 +1,4 @@
+com/berthoud/p7/webapp/consumer/contracts/LibrairyDAO.class
+com/berthoud/p7/webapp/consumer/contracts/CustomerDAO.class
+com/berthoud/p7/webapp/consumer/contracts/BookReferenceDAO.class
+com/berthoud/p7/webapp/consumer/contracts/LoanDAO.class

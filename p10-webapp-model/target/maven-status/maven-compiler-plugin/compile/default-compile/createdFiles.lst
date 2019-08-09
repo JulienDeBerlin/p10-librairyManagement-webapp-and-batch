@@ -1,0 +1,9 @@
+p7/webapp/model/beans/Tag.class
+p7/webapp/model/beans/Book.class
+p7/webapp/model/beans/BookReference.class
+p7/webapp/model/beans/Customer.class
+p7/webapp/model/beans/Librairy.class
+p7/webapp/model/beans/Loan.class
+p7/webapp/model/beans/Address.class
+p7/webapp/model/beans/Book$Status.class
+p7/webapp/model/beans/Availability.class

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+  <!--
+
+Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.2.11 
+Voir <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
+Généré le : 2019.08.06 à 05:02:53 PM CEST 
+
+  -->
+  <bindings xmlns:tns="http://com.berthoud.p7" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="books.wsdl"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="tns:bookRequest">
+      <class ref="books.wsdl.BookRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:bookResponse">
+      <class ref="books.wsdl.BookResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:bookReferenceWs">
+      <class ref="books.wsdl.BookReferenceWs"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:listLibrairyRequest">
+      <class ref="books.wsdl.ListLibrairyRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:listLibrairyResponse">
+      <class ref="books.wsdl.ListLibrairyResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:librairyWs">
+      <class ref="books.wsdl.LibrairyWs"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:tagsWs">
+      <class ref="books.wsdl.TagsWs"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:bookWs">
+      <class ref="books.wsdl.BookWs"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:statusWs">
+      <typesafeEnumClass ref="books.wsdl.StatusWs"/>
+    </bindings>
+  </bindings>
+</bindings>
